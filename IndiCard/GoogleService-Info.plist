@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>466626592950-vdit03idlk149vv2o738gt8vpsv2qa0t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.466626592950-vdit03idlk149vv2o738gt8vpsv2qa0t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBV_weyGRuQ0Bzx4GNNQ4MNl4Ip0Rvn6CE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>466626592950</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pongpatw.IndiCard</string>
+	<key>PROJECT_ID</key>
+	<string>tesco-lotus-indicard</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tesco-lotus-indicard.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:466626592950:ios:b411f6164e0d9f1a</string>
+	<key>DATABASE_URL</key>
+	<string>https://tesco-lotus-indicard.firebaseio.com</string>
+</dict>
+</plist>

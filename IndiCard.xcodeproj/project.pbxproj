@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DEED3AAB883C8C64A59658B /* Pods_IndiCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA4AE5EC426832174337D53 /* Pods_IndiCard.framework */; };
+		7DC27691205D4B650067CFA5 /* MaskImageUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC27690205D4B650067CFA5 /* MaskImageUtility.m */; };
+		7DC27694205D50D90067CFA5 /* AddCardScanBarcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC27693205D50D90067CFA5 /* AddCardScanBarcodeViewController.m */; };
+		7DC27697205D593C0067CFA5 /* AddCardConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC27696205D593C0067CFA5 /* AddCardConfirmViewController.m */; };
+		7DC2769A205D73E60067CFA5 /* AddCardManuallyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC27699205D73E60067CFA5 /* AddCardManuallyViewController.m */; };
+		7DC276A0205D7FD20067CFA5 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC2769F205D7FD20067CFA5 /* Card.m */; };
+		7DC276A3205DBB730067CFA5 /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC276A2205DBB730067CFA5 /* ExploreViewController.m */; };
+		7DC276A9205DBE970067CFA5 /* ExplorePromotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC276A8205DBE970067CFA5 /* ExplorePromotionView.m */; };
+		7DC276AB205DBEB00067CFA5 /* ExplorePromotionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC276AA205DBEB00067CFA5 /* ExplorePromotionView.xib */; };
+		7DC276AE205DBED20067CFA5 /* ExploreRewardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC276AD205DBED20067CFA5 /* ExploreRewardView.m */; };
+		7DC276B0205DBEE50067CFA5 /* ExploreRewardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC276AF205DBEE50067CFA5 /* ExploreRewardView.xib */; };
+		7DC276B5205DCB260067CFA5 /* PromotionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC276B3205DCB260067CFA5 /* PromotionCollectionViewCell.m */; };
+		7DC276B6205DCB260067CFA5 /* PromotionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC276B4205DCB260067CFA5 /* PromotionCollectionViewCell.xib */; };
+		7DC276BA205DDDD10067CFA5 /* Promotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC276B9205DDDD10067CFA5 /* Promotion.m */; };
+		7DC276BD205DF0890067CFA5 /* PromotionDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC276BC205DF0890067CFA5 /* PromotionDetailsViewController.m */; };
+		7DDD02A8205CE68100BBE00B /* MyCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD02A7205CE68100BBE00B /* MyCardsViewController.m */; };
+		7DDD02AE205CF4A400BBE00B /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD02AD205CF4A400BBE00B /* SettingsTableViewController.m */; };
+		7DDD02B1205CF80600BBE00B /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD02B0205CF80600BBE00B /* AddCardViewController.m */; };
+		7DDD02B4205D052800BBE00B /* DummyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD02B3205D052800BBE00B /* DummyViewController.m */; };
+		7DDD02B7205D057500BBE00B /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD02B6205D057500BBE00B /* SignInViewController.m */; };
+		7DDD02B9205D069D00BBE00B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DDD02B8205D069C00BBE00B /* GoogleService-Info.plist */; };
+		7DF30F6B205CC2D000A9E9A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF30F6A205CC2D000A9E9A7 /* AppDelegate.m */; };
+		7DF30F74205CC2D000A9E9A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF30F72205CC2D000A9E9A7 /* Main.storyboard */; };
+		7DF30F76205CC2D000A9E9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF30F75205CC2D000A9E9A7 /* Assets.xcassets */; };
+		7DF30F79205CC2D000A9E9A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF30F77205CC2D000A9E9A7 /* LaunchScreen.storyboard */; };
+		7DF30F7C205CC2D000A9E9A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF30F7B205CC2D000A9E9A7 /* main.m */; };
+		7DF30F86205CC2D000A9E9A7 /* CardletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF30F85205CC2D000A9E9A7 /* CardletTests.m */; };
+		7DF30F91205CC2D000A9E9A7 /* CardletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF30F90205CC2D000A9E9A7 /* CardletUITests.m */; };
+		7DF30FA6205CDA3C00A9E9A7 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF30FA5205CDA3C00A9E9A7 /* CustomNavigationController.m */; };
+		7DF30FAC205CDD2E00A9E9A7 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DF30FA8205CDD2D00A9E9A7 /* NotoSans-Medium.ttf */; };
+		7DF30FAD205CDD2E00A9E9A7 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DF30FA9205CDD2D00A9E9A7 /* NotoSans-Bold.ttf */; };
+		7DF30FAE205CDD2E00A9E9A7 /* NotoSans-SemiCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DF30FAA205CDD2D00A9E9A7 /* NotoSans-SemiCondensed.ttf */; };
+		7DF30FAF205CDD2E00A9E9A7 /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DF30FAB205CDD2E00A9E9A7 /* NotoSans-Light.ttf */; };
+		7EE8B3E5954A16C2B214AFCE /* Pods_IndiCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F04614E7E77CD40C0FA5B42 /* Pods_IndiCardUITests.framework */; };
+		B0A6089CCB509AAD662B96E9 /* Pods_IndiCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF499B2D917E5442DFD2DD1 /* Pods_IndiCardTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DF30F82205CC2D000A9E9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DF30F5E205CC2D000A9E9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF30F65205CC2D000A9E9A7;
+			remoteInfo = Cardlet;
+		};
+		7DF30F8D205CC2D000A9E9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DF30F5E205CC2D000A9E9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF30F65205CC2D000A9E9A7;
+			remoteInfo = Cardlet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		197A70F63B72329BEB7DF373 /* Pods-IndiCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiCardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndiCardTests/Pods-IndiCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		2EDF5C388A3C30F995C73113 /* Pods-IndiCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiCardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndiCardUITests/Pods-IndiCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F04614E7E77CD40C0FA5B42 /* Pods_IndiCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndiCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC2768F205D4B650067CFA5 /* MaskImageUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskImageUtility.h; sourceTree = "<group>"; };
+		7DC27690205D4B650067CFA5 /* MaskImageUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskImageUtility.m; sourceTree = "<group>"; };
+		7DC27692205D50D90067CFA5 /* AddCardScanBarcodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCardScanBarcodeViewController.h; sourceTree = "<group>"; };
+		7DC27693205D50D90067CFA5 /* AddCardScanBarcodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCardScanBarcodeViewController.m; sourceTree = "<group>"; };
+		7DC27695205D593C0067CFA5 /* AddCardConfirmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCardConfirmViewController.h; sourceTree = "<group>"; };
+		7DC27696205D593C0067CFA5 /* AddCardConfirmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCardConfirmViewController.m; sourceTree = "<group>"; };
+		7DC27698205D73E60067CFA5 /* AddCardManuallyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCardManuallyViewController.h; sourceTree = "<group>"; };
+		7DC27699205D73E60067CFA5 /* AddCardManuallyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCardManuallyViewController.m; sourceTree = "<group>"; };
+		7DC2769E205D7FD20067CFA5 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		7DC2769F205D7FD20067CFA5 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		7DC276A1205DBB730067CFA5 /* ExploreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		7DC276A2205DBB730067CFA5 /* ExploreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
+		7DC276A7205DBE970067CFA5 /* ExplorePromotionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExplorePromotionView.h; sourceTree = "<group>"; };
+		7DC276A8205DBE970067CFA5 /* ExplorePromotionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExplorePromotionView.m; sourceTree = "<group>"; };
+		7DC276AA205DBEB00067CFA5 /* ExplorePromotionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExplorePromotionView.xib; sourceTree = "<group>"; };
+		7DC276AC205DBED20067CFA5 /* ExploreRewardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploreRewardView.h; sourceTree = "<group>"; };
+		7DC276AD205DBED20067CFA5 /* ExploreRewardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreRewardView.m; sourceTree = "<group>"; };
+		7DC276AF205DBEE50067CFA5 /* ExploreRewardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExploreRewardView.xib; sourceTree = "<group>"; };
+		7DC276B1205DC0F80067CFA5 /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		7DC276B2205DCB260067CFA5 /* PromotionCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionCollectionViewCell.h; sourceTree = "<group>"; };
+		7DC276B3205DCB260067CFA5 /* PromotionCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionCollectionViewCell.m; sourceTree = "<group>"; };
+		7DC276B4205DCB260067CFA5 /* PromotionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromotionCollectionViewCell.xib; sourceTree = "<group>"; };
+		7DC276B7205DCE5A0067CFA5 /* NotoSansThai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThai-Regular.ttf"; sourceTree = "<group>"; };
+		7DC276B8205DDDD10067CFA5 /* Promotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Promotion.h; sourceTree = "<group>"; };
+		7DC276B9205DDDD10067CFA5 /* Promotion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Promotion.m; sourceTree = "<group>"; };
+		7DC276BB205DF0890067CFA5 /* PromotionDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionDetailsViewController.h; sourceTree = "<group>"; };
+		7DC276BC205DF0890067CFA5 /* PromotionDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionDetailsViewController.m; sourceTree = "<group>"; };
+		7DDD02A6205CE68100BBE00B /* MyCardsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCardsViewController.h; sourceTree = "<group>"; };
+		7DDD02A7205CE68100BBE00B /* MyCardsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCardsViewController.m; sourceTree = "<group>"; };
+		7DDD02AC205CF4A400BBE00B /* SettingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		7DDD02AD205CF4A400BBE00B /* SettingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		7DDD02AF205CF80600BBE00B /* AddCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		7DDD02B0205CF80600BBE00B /* AddCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCardViewController.m; sourceTree = "<group>"; };
+		7DDD02B2205D052800BBE00B /* DummyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DummyViewController.h; sourceTree = "<group>"; };
+		7DDD02B3205D052800BBE00B /* DummyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DummyViewController.m; sourceTree = "<group>"; };
+		7DDD02B5205D057500BBE00B /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		7DDD02B6205D057500BBE00B /* SignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		7DDD02B8205D069C00BBE00B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7DDD02BA205D0DB700BBE00B /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7DDD02BB205D0DD700BBE00B /* Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		7DF30F66205CC2D000A9E9A7 /* IndiCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndiCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF30F69205CC2D000A9E9A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DF30F6A205CC2D000A9E9A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DF30F73205CC2D000A9E9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DF30F75205CC2D000A9E9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DF30F78205CC2D000A9E9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DF30F7A205CC2D000A9E9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF30F7B205CC2D000A9E9A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DF30F81205CC2D000A9E9A7 /* IndiCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF30F85205CC2D000A9E9A7 /* CardletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardletTests.m; sourceTree = "<group>"; };
+		7DF30F87205CC2D000A9E9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF30F8C205CC2D000A9E9A7 /* IndiCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF30F90205CC2D000A9E9A7 /* CardletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardletUITests.m; sourceTree = "<group>"; };
+		7DF30F92205CC2D000A9E9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF30FA4205CDA3C00A9E9A7 /* CustomNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		7DF30FA5205CDA3C00A9E9A7 /* CustomNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		7DF30FA8205CDD2D00A9E9A7 /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		7DF30FA9205CDD2D00A9E9A7 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		7DF30FAA205CDD2D00A9E9A7 /* NotoSans-SemiCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiCondensed.ttf"; sourceTree = "<group>"; };
+		7DF30FAB205CDD2E00A9E9A7 /* NotoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Light.ttf"; sourceTree = "<group>"; };
+		8031D0C30ABE6F9567B1D516 /* Pods-IndiCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiCardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndiCardUITests/Pods-IndiCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81E437B2AC9CCA953B28A20B /* Pods-IndiCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiCardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndiCardTests/Pods-IndiCardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97E9D480AE061F10AE4BF9F7 /* Pods-IndiCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndiCard/Pods-IndiCard.debug.xcconfig"; sourceTree = "<group>"; };
+		AF8224FD4E1B8A954D58E86B /* Pods-IndiCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndiCard/Pods-IndiCard.release.xcconfig"; sourceTree = "<group>"; };
+		FFA4AE5EC426832174337D53 /* Pods_IndiCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndiCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF499B2D917E5442DFD2DD1 /* Pods_IndiCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndiCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DF30F63205CC2D000A9E9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEED3AAB883C8C64A59658B /* Pods_IndiCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF30F7E205CC2D000A9E9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A6089CCB509AAD662B96E9 /* Pods_IndiCardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF30F89205CC2D000A9E9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE8B3E5954A16C2B214AFCE /* Pods_IndiCardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB9211217DB92B66E0AA547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFA4AE5EC426832174337D53 /* Pods_IndiCard.framework */,
+				FFF499B2D917E5442DFD2DD1 /* Pods_IndiCardTests.framework */,
+				6F04614E7E77CD40C0FA5B42 /* Pods_IndiCardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DF30F5D205CC2D000A9E9A7 = {
+			isa = PBXGroup;
+			children = (
+				7DF30F68205CC2D000A9E9A7 /* IndiCard */,
+				7DF30F84205CC2D000A9E9A7 /* IndiCardTests */,
+				7DF30F8F205CC2D000A9E9A7 /* IndiCardUITests */,
+				7DF30F67205CC2D000A9E9A7 /* Products */,
+				853D3A2B96BC9ACE8F785E35 /* Pods */,
+				3BB9211217DB92B66E0AA547 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF30F67205CC2D000A9E9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF30F66205CC2D000A9E9A7 /* IndiCard.app */,
+				7DF30F81205CC2D000A9E9A7 /* IndiCardTests.xctest */,
+				7DF30F8C205CC2D000A9E9A7 /* IndiCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DF30F68205CC2D000A9E9A7 /* IndiCard */ = {
+			isa = PBXGroup;
+			children = (
+				7DF30F9E205CD8DD00A9E9A7 /* Controller */,
+				7DF30F9F205CD90700A9E9A7 /* Model */,
+				7DF30FA0205CD92000A9E9A7 /* Resources */,
+				7DF30FA1205CD92D00A9E9A7 /* View */,
+				7DF30FA2205CD93600A9E9A7 /* Utility */,
+				7DF30F69205CC2D000A9E9A7 /* AppDelegate.h */,
+				7DF30F6A205CC2D000A9E9A7 /* AppDelegate.m */,
+				7DDD02BA205D0DB700BBE00B /* Constants.h */,
+				7DF30F72205CC2D000A9E9A7 /* Main.storyboard */,
+				7DF30F75205CC2D000A9E9A7 /* Assets.xcassets */,
+				7DF30F77205CC2D000A9E9A7 /* LaunchScreen.storyboard */,
+				7DF30F7A205CC2D000A9E9A7 /* Info.plist */,
+				7DDD02B8205D069C00BBE00B /* GoogleService-Info.plist */,
+				7DF30F7B205CC2D000A9E9A7 /* main.m */,
+			);
+			path = IndiCard;
+			sourceTree = "<group>";
+		};
+		7DF30F84205CC2D000A9E9A7 /* IndiCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DF30F85205CC2D000A9E9A7 /* CardletTests.m */,
+				7DF30F87205CC2D000A9E9A7 /* Info.plist */,
+			);
+			path = IndiCardTests;
+			sourceTree = "<group>";
+		};
+		7DF30F8F205CC2D000A9E9A7 /* IndiCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DF30F90205CC2D000A9E9A7 /* CardletUITests.m */,
+				7DF30F92205CC2D000A9E9A7 /* Info.plist */,
+			);
+			path = IndiCardUITests;
+			sourceTree = "<group>";
+		};
+		7DF30F9E205CD8DD00A9E9A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DDD02B2205D052800BBE00B /* DummyViewController.h */,
+				7DDD02B3205D052800BBE00B /* DummyViewController.m */,
+				7DDD02B5205D057500BBE00B /* SignInViewController.h */,
+				7DDD02B6205D057500BBE00B /* SignInViewController.m */,
+				7DF30FA4205CDA3C00A9E9A7 /* CustomNavigationController.h */,
+				7DF30FA5205CDA3C00A9E9A7 /* CustomNavigationController.m */,
+				7DDD02A6205CE68100BBE00B /* MyCardsViewController.h */,
+				7DDD02A7205CE68100BBE00B /* MyCardsViewController.m */,
+				7DDD02AF205CF80600BBE00B /* AddCardViewController.h */,
+				7DDD02B0205CF80600BBE00B /* AddCardViewController.m */,
+				7DC27692205D50D90067CFA5 /* AddCardScanBarcodeViewController.h */,
+				7DC27693205D50D90067CFA5 /* AddCardScanBarcodeViewController.m */,
+				7DC27698205D73E60067CFA5 /* AddCardManuallyViewController.h */,
+				7DC27699205D73E60067CFA5 /* AddCardManuallyViewController.m */,
+				7DC27695205D593C0067CFA5 /* AddCardConfirmViewController.h */,
+				7DC27696205D593C0067CFA5 /* AddCardConfirmViewController.m */,
+				7DC276A1205DBB730067CFA5 /* ExploreViewController.h */,
+				7DC276A2205DBB730067CFA5 /* ExploreViewController.m */,
+				7DC276BB205DF0890067CFA5 /* PromotionDetailsViewController.h */,
+				7DC276BC205DF0890067CFA5 /* PromotionDetailsViewController.m */,
+				7DDD02AC205CF4A400BBE00B /* SettingsTableViewController.h */,
+				7DDD02AD205CF4A400BBE00B /* SettingsTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7DF30F9F205CD90700A9E9A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DC2769E205D7FD20067CFA5 /* Card.h */,
+				7DC2769F205D7FD20067CFA5 /* Card.m */,
+				7DC276B8205DDDD10067CFA5 /* Promotion.h */,
+				7DC276B9205DDDD10067CFA5 /* Promotion.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DF30FA0205CD92000A9E9A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DF30FA7205CDCBD00A9E9A7 /* Fonts */,
+				7DDD02BB205D0DD700BBE00B /* Colors.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7DF30FA1205CD92D00A9E9A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DC276A7205DBE970067CFA5 /* ExplorePromotionView.h */,
+				7DC276A8205DBE970067CFA5 /* ExplorePromotionView.m */,
+				7DC276AA205DBEB00067CFA5 /* ExplorePromotionView.xib */,
+				7DC276AC205DBED20067CFA5 /* ExploreRewardView.h */,
+				7DC276AD205DBED20067CFA5 /* ExploreRewardView.m */,
+				7DC276AF205DBEE50067CFA5 /* ExploreRewardView.xib */,
+				7DC276B2205DCB260067CFA5 /* PromotionCollectionViewCell.h */,
+				7DC276B3205DCB260067CFA5 /* PromotionCollectionViewCell.m */,
+				7DC276B4205DCB260067CFA5 /* PromotionCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DF30FA2205CD93600A9E9A7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7DC2768F205D4B650067CFA5 /* MaskImageUtility.h */,
+				7DC27690205D4B650067CFA5 /* MaskImageUtility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7DF30FA7205CDCBD00A9E9A7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7DF30FA9205CDD2D00A9E9A7 /* NotoSans-Bold.ttf */,
+				7DF30FAB205CDD2E00A9E9A7 /* NotoSans-Light.ttf */,
+				7DC276B1205DC0F80067CFA5 /* NotoSans-SemiBold.ttf */,
+				7DF30FA8205CDD2D00A9E9A7 /* NotoSans-Medium.ttf */,
+				7DF30FAA205CDD2D00A9E9A7 /* NotoSans-SemiCondensed.ttf */,
+				7DC276B7205DCE5A0067CFA5 /* NotoSansThai-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		853D3A2B96BC9ACE8F785E35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97E9D480AE061F10AE4BF9F7 /* Pods-IndiCard.debug.xcconfig */,
+				AF8224FD4E1B8A954D58E86B /* Pods-IndiCard.release.xcconfig */,
+				81E437B2AC9CCA953B28A20B /* Pods-IndiCardTests.debug.xcconfig */,
+				197A70F63B72329BEB7DF373 /* Pods-IndiCardTests.release.xcconfig */,
+				8031D0C30ABE6F9567B1D516 /* Pods-IndiCardUITests.debug.xcconfig */,
+				2EDF5C388A3C30F995C73113 /* Pods-IndiCardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DF30F65205CC2D000A9E9A7 /* IndiCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF30F95205CC2D000A9E9A7 /* Build configuration list for PBXNativeTarget "IndiCard" */;
+			buildPhases = (
+				4246196FEA2A1FCC01F4FCE5 /* [CP] Check Pods Manifest.lock */,
+				7DF30F62205CC2D000A9E9A7 /* Sources */,
+				7DF30F63205CC2D000A9E9A7 /* Frameworks */,
+				7DF30F64205CC2D000A9E9A7 /* Resources */,
+				BB3B7D59EF95821641D826AC /* [CP] Embed Pods Frameworks */,
+				4F06EBAC8F1D6D1500951B98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndiCard;
+			productName = Cardlet;
+			productReference = 7DF30F66205CC2D000A9E9A7 /* IndiCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DF30F80205CC2D000A9E9A7 /* IndiCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF30F98205CC2D000A9E9A7 /* Build configuration list for PBXNativeTarget "IndiCardTests" */;
+			buildPhases = (
+				A603DD101A351A1DC9FA9CCC /* [CP] Check Pods Manifest.lock */,
+				7DF30F7D205CC2D000A9E9A7 /* Sources */,
+				7DF30F7E205CC2D000A9E9A7 /* Frameworks */,
+				7DF30F7F205CC2D000A9E9A7 /* Resources */,
+				55210676F4B63DC173DA3F39 /* [CP] Embed Pods Frameworks */,
+				8668175145E359E42B605E11 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF30F83205CC2D000A9E9A7 /* PBXTargetDependency */,
+			);
+			name = IndiCardTests;
+			productName = CardletTests;
+			productReference = 7DF30F81205CC2D000A9E9A7 /* IndiCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DF30F8B205CC2D000A9E9A7 /* IndiCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF30F9B205CC2D000A9E9A7 /* Build configuration list for PBXNativeTarget "IndiCardUITests" */;
+			buildPhases = (
+				D79BC52BAC939EF55DAA9C5B /* [CP] Check Pods Manifest.lock */,
+				7DF30F88205CC2D000A9E9A7 /* Sources */,
+				7DF30F89205CC2D000A9E9A7 /* Frameworks */,
+				7DF30F8A205CC2D000A9E9A7 /* Resources */,
+				40A182AF3AFC2D4158FE594C /* [CP] Embed Pods Frameworks */,
+				25744E7CE02C704723661386 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF30F8E205CC2D000A9E9A7 /* PBXTargetDependency */,
+			);
+			name = IndiCardUITests;
+			productName = CardletUITests;
+			productReference = 7DF30F8C205CC2D000A9E9A7 /* IndiCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DF30F5E205CC2D000A9E9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Pongpat Weesommai";
+				TargetAttributes = {
+					7DF30F65205CC2D000A9E9A7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7DF30F80205CC2D000A9E9A7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7DF30F65205CC2D000A9E9A7;
+					};
+					7DF30F8B205CC2D000A9E9A7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7DF30F65205CC2D000A9E9A7;
+					};
+				};
+			};
+			buildConfigurationList = 7DF30F61205CC2D000A9E9A7 /* Build configuration list for PBXProject "IndiCard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DF30F5D205CC2D000A9E9A7;
+			productRefGroup = 7DF30F67205CC2D000A9E9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DF30F65205CC2D000A9E9A7 /* IndiCard */,
+				7DF30F80205CC2D000A9E9A7 /* IndiCardTests */,
+				7DF30F8B205CC2D000A9E9A7 /* IndiCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DF30F64205CC2D000A9E9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF30F79205CC2D000A9E9A7 /* LaunchScreen.storyboard in Resources */,
+				7DDD02B9205D069D00BBE00B /* GoogleService-Info.plist in Resources */,
+				7DF30FAE205CDD2E00A9E9A7 /* NotoSans-SemiCondensed.ttf in Resources */,
+				7DF30FAF205CDD2E00A9E9A7 /* NotoSans-Light.ttf in Resources */,
+				7DF30F76205CC2D000A9E9A7 /* Assets.xcassets in Resources */,
+				7DF30FAC205CDD2E00A9E9A7 /* NotoSans-Medium.ttf in Resources */,
+				7DC276AB205DBEB00067CFA5 /* ExplorePromotionView.xib in Resources */,
+				7DC276B6205DCB260067CFA5 /* PromotionCollectionViewCell.xib in Resources */,
+				7DC276B0205DBEE50067CFA5 /* ExploreRewardView.xib in Resources */,
+				7DF30FAD205CDD2E00A9E9A7 /* NotoSans-Bold.ttf in Resources */,
+				7DF30F74205CC2D000A9E9A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF30F7F205CC2D000A9E9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF30F8A205CC2D000A9E9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25744E7CE02C704723661386 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndiCardUITests/Pods-IndiCardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40A182AF3AFC2D4158FE594C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndiCardUITests/Pods-IndiCardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4246196FEA2A1FCC01F4FCE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndiCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F06EBAC8F1D6D1500951B98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndiCard/Pods-IndiCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55210676F4B63DC173DA3F39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndiCardTests/Pods-IndiCardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8668175145E359E42B605E11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndiCardTests/Pods-IndiCardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A603DD101A351A1DC9FA9CCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndiCardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3B7D59EF95821641D826AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IndiCard/Pods-IndiCard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TYPagerController/TYPagerController.framework",
+				"${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTBBarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYPagerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iCarousel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndiCard/Pods-IndiCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D79BC52BAC939EF55DAA9C5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndiCardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DF30F62205CC2D000A9E9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC276A0205D7FD20067CFA5 /* Card.m in Sources */,
+				7DDD02B7205D057500BBE00B /* SignInViewController.m in Sources */,
+				7DDD02A8205CE68100BBE00B /* MyCardsViewController.m in Sources */,
+				7DC27691205D4B650067CFA5 /* MaskImageUtility.m in Sources */,
+				7DC2769A205D73E60067CFA5 /* AddCardManuallyViewController.m in Sources */,
+				7DF30F6B205CC2D000A9E9A7 /* AppDelegate.m in Sources */,
+				7DC276A3205DBB730067CFA5 /* ExploreViewController.m in Sources */,
+				7DDD02B1205CF80600BBE00B /* AddCardViewController.m in Sources */,
+				7DDD02AE205CF4A400BBE00B /* SettingsTableViewController.m in Sources */,
+				7DC276BA205DDDD10067CFA5 /* Promotion.m in Sources */,
+				7DC27694205D50D90067CFA5 /* AddCardScanBarcodeViewController.m in Sources */,
+				7DF30FA6205CDA3C00A9E9A7 /* CustomNavigationController.m in Sources */,
+				7DF30F7C205CC2D000A9E9A7 /* main.m in Sources */,
+				7DDD02B4205D052800BBE00B /* DummyViewController.m in Sources */,
+				7DC276AE205DBED20067CFA5 /* ExploreRewardView.m in Sources */,
+				7DC276A9205DBE970067CFA5 /* ExplorePromotionView.m in Sources */,
+				7DC27697205D593C0067CFA5 /* AddCardConfirmViewController.m in Sources */,
+				7DC276BD205DF0890067CFA5 /* PromotionDetailsViewController.m in Sources */,
+				7DC276B5205DCB260067CFA5 /* PromotionCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF30F7D205CC2D000A9E9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF30F86205CC2D000A9E9A7 /* CardletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF30F88205CC2D000A9E9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF30F91205CC2D000A9E9A7 /* CardletUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DF30F83205CC2D000A9E9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DF30F65205CC2D000A9E9A7 /* IndiCard */;
+			targetProxy = 7DF30F82205CC2D000A9E9A7 /* PBXContainerItemProxy */;
+		};
+		7DF30F8E205CC2D000A9E9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DF30F65205CC2D000A9E9A7 /* IndiCard */;
+			targetProxy = 7DF30F8D205CC2D000A9E9A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DF30F72205CC2D000A9E9A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF30F73205CC2D000A9E9A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DF30F77205CC2D000A9E9A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF30F78205CC2D000A9E9A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DF30F93205CC2D000A9E9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DF30F94205CC2D000A9E9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DF30F96205CC2D000A9E9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E9D480AE061F10AE4BF9F7 /* Pods-IndiCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZ5G4K6PQ;
+				INFOPLIST_FILE = "$(SRCROOT)/IndiCard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pongpatw.IndiCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7DF30F97205CC2D000A9E9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8224FD4E1B8A954D58E86B /* Pods-IndiCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZ5G4K6PQ;
+				INFOPLIST_FILE = "$(SRCROOT)/IndiCard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pongpatw.IndiCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7DF30F99205CC2D000A9E9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E437B2AC9CCA953B28A20B /* Pods-IndiCardTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZ5G4K6PQ;
+				INFOPLIST_FILE = CardletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pongpatw.CardletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndiCard.app/IndiCard";
+			};
+			name = Debug;
+		};
+		7DF30F9A205CC2D000A9E9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197A70F63B72329BEB7DF373 /* Pods-IndiCardTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZ5G4K6PQ;
+				INFOPLIST_FILE = CardletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pongpatw.CardletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndiCard.app/IndiCard";
+			};
+			name = Release;
+		};
+		7DF30F9C205CC2D000A9E9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8031D0C30ABE6F9567B1D516 /* Pods-IndiCardUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZ5G4K6PQ;
+				INFOPLIST_FILE = CardletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pongpatw.CardletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardlet;
+			};
+			name = Debug;
+		};
+		7DF30F9D205CC2D000A9E9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDF5C388A3C30F995C73113 /* Pods-IndiCardUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZ5G4K6PQ;
+				INFOPLIST_FILE = CardletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pongpatw.CardletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardlet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DF30F61205CC2D000A9E9A7 /* Build configuration list for PBXProject "IndiCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF30F93205CC2D000A9E9A7 /* Debug */,
+				7DF30F94205CC2D000A9E9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF30F95205CC2D000A9E9A7 /* Build configuration list for PBXNativeTarget "IndiCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF30F96205CC2D000A9E9A7 /* Debug */,
+				7DF30F97205CC2D000A9E9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF30F98205CC2D000A9E9A7 /* Build configuration list for PBXNativeTarget "IndiCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF30F99205CC2D000A9E9A7 /* Debug */,
+				7DF30F9A205CC2D000A9E9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF30F9B205CC2D000A9E9A7 /* Build configuration list for PBXNativeTarget "IndiCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF30F9C205CC2D000A9E9A7 /* Debug */,
+				7DF30F9D205CC2D000A9E9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DF30F5E205CC2D000A9E9A7 /* Project object */;
+}
